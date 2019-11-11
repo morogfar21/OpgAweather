@@ -11,6 +11,8 @@ namespace Lab10.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private ApiDb db = new ApiDb();
+
         private List<measurement> liste = new List<measurement>();
         // GET api/values
         [HttpGet]
@@ -28,10 +30,11 @@ namespace Lab10.Controllers
 
         // POST api/values
         [HttpPost]
-        public ActionResult<string> Post([Bind("temperature","humidity","pressure")] measurement value)
-        {
-            
-            return value.humidity + " " + value.temperature + " " + value.pressure;
+        public ActionResult<string> Post([Bind("dato","temperature","humidity","pressure")] measurement value)
+            {
+            db.measurement.Add(value);
+            db.SaveChanges();
+            return value.dato + " " + value.humidity + " " + value.temperature + " " + value.pressure;
         }
 
         // PUT api/values/5
