@@ -12083,11 +12083,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\4. semester\\I4IKN\\WEBAPI\\Lab10\\Lab10\\Lab10.csproj",
+      "projectUniqueName": "C:\\4. semester\\NGK\\WEBAPI\\Lab10\\Lab10\\Lab10.csproj",
       "projectName": "Lab10",
-      "projectPath": "C:\\4. semester\\I4IKN\\WEBAPI\\Lab10\\Lab10\\Lab10.csproj",
+      "projectPath": "C:\\4. semester\\NGK\\WEBAPI\\Lab10\\Lab10\\Lab10.csproj",
       "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-      "outputPath": "C:\\4. semester\\I4IKN\\WEBAPI\\Lab10\\Lab10\\obj\\",
+      "outputPath": "C:\\4. semester\\NGK\\WEBAPI\\Lab10\\Lab10\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
